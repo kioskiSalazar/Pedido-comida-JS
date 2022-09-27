@@ -23,12 +23,12 @@ if (login()) {
   
 let total=0; 
 
-    let opcion = prompt("Hace tu pedido: \n1- Sandwich de millanesa $350. \n2- Milanesa al plato con fritas $500. \n3- Parrillada $1500. \n4- Piza de muzarella $1000. \n5- Papa fritas $500.\nPresiona X para finaliar pedido.");
+    let opcion = prompt("Hace tu pedido: \n1- Sandwich de millanesa. costo $350. \n2- Milanesa al plato con fritas. costo $500. \n3- Parrillada. costo $1500. \n4- Piza de muzarella. costo $1000. \n5- Papa fritas. costo $500.\nPresiona X para finaliar pedido.");
 
 while(opcion != "X" && opcion != "x"){
 switch (opcion) {
         case "1":
-            alert("Sandwich de milanesa");
+            alert("Elegiste sandwich de milanesa.");
 total += 350;
             break;
             case "2":
@@ -36,19 +36,19 @@ total += 350;
                 total += 500;
                 break;
             case "3":
-            alert("Elegiste Parrillada");
+            alert("Elegiste Parrillada.");
             total += 1500;
                 break;
             case "4":
-                alert("Elegiste Piza de muzarella");
+                alert("Elegiste Piza de muzarella.");
                 total += 1000;
                 break;
             case "5":
-                alert("Elegiste Papa fritas");
+                alert("Elegiste Papa fritas.");
                 total += 500;
                 break;
                 default:
-                    alert("Opcion invalida");
+                    alert("Opcion invalida.");
                     break;
     }
 opcion = prompt("Hace tu pedido: \n1- Sandwich de millanesa 350. \n2- Milanesa al plato con fritas 500. \n3- Parrillada 1500. \n4- Piza de muzarella 1000. \n5- Papa fritas 500.\nPresiona X para finaliar pedido."); 
